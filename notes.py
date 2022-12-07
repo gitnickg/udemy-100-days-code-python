@@ -28,3 +28,9 @@
     ## Boolean
 #print(1==1)
 #print(1==2)
+
+## data type check and conversion
+a = 5
+b = str(a)
+print(type(a))
+print(type(b))
