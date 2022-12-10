@@ -13,7 +13,8 @@ tip = input("What percentage tip would you like to give? 10, 12, or 15? ")
 people = input("How many people to split the bill? ")
 
 tip_dec = int(tip) / 100
-amount_per_person = (float(bill) / int(people)) * (1+tip_dec)
+amount_per_person = round((float(bill) / int(people)) * (1+tip_dec), 2)
+amount_per_person_f = "{:.2f}".format(amount_per_person) # formats to include 2 decimal points to show trailing zero
 
 
-print(f"Each person should pay: ${round(amount_per_person, 2)}")
+print(f"Each person should pay: ${amount_per_person_f}")
