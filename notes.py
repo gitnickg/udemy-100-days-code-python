@@ -15,22 +15,54 @@
 #print(length)
 
 ## Data Types
-    ## String subscripting, start from 0, select character from a string
+## String subscripting, start from 0, select character from a string
 #print("Hello"[0])
 #print("12345"[0])
 
-    ## Integer
+## Integer
 #print(1+1)
 
-    ## Float
+## Float
 #print(3.149)
 
-    ## Boolean
+## Boolean
 #print(1==1)
 #print(1==2)
 
 ## data type check and conversion
-a = 5
-b = str(a)
-print(type(a))
-print(type(b))
+#a = 5
+#b = str(a)
+#b = int(a)
+#print(type(a))
+#print(type(b))
+
+## Quick Maths
+#2 + 2 ## addition
+#4 - 1 ## subtraction
+#2 * 2 ## multiplication
+#6 / 3 ## division type = float
+#2 ** 2 ## exponent
+
+## PEMDAS (left to right)
+# ()
+# **
+# * /
+# + -
+
+## rounding
+#round(8 / 3, 2) ## two decimal places
+#8 // 3 ## integer
+
+## shorthand
+#score = 0
+#score = score + 1
+## is the same as
+#score +=1 
+
+## f-string
+#score = 1
+#height = 1.8
+#isWinning = True
+
+#print(f"the values are {score} {height} {isWinning}")
+
