@@ -66,3 +66,7 @@
 
 #print(f"the values are {score} {height} {isWinning}")
 
+## Logical operators
+#A and B
+#A or B
+#not E
