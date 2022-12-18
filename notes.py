@@ -66,3 +66,9 @@
 
 #print(f"the values are {score} {height} {isWinning}")
 
+## if statements
+#if x = 1:
+    #then print("true")
+#else:
+   #print("false")  
+
