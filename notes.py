@@ -72,3 +72,7 @@
 #else:
    #print("false")  
 
+## Logical operators
+#A and B
+#A or B
+#not E
